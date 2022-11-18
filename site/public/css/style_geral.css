@@ -1,0 +1,205 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/*
+Codigo para resetar CSS
+*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+Codigo para resetar CSS
+
+--------------------------------------
+
+Inicio do CSS
+
+HEADER
+*/
+
+header {
+  padding: 6px 0;
+  background-color: #eff0e8;
+  border-bottom: 3px solid #11C76F;
+  position: fixed;
+  width: 100%;
+  z-index: 200;
+}
+
+.containerPadrao {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  color: #11c76f;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.titulo{
+  color: #11c76f;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+}
+
+.menu {
+  list-style: none;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.itens{
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 40px;
+}
+
+.itens .cadastrar{
+  background-color: #eff0e8;
+  border: 1px solid #11c76f;
+  height: 30px;
+  width: 90px;
+  border-radius: 15px;
+  font-weight: 700;
+  color: #11c76f;
+  cursor: pointer;
+  font-size: 80%;
+}
+
+.itens .entrar{
+  background-color: #11c76f;
+  border: none;
+  height: 30px;
+  width: 70px;
+  border-radius: 15px;
+  font-weight: 700;
+  color: #eff0e8;
+  cursor: pointer;
+  font-size: 80%;
+}
+
+.itens button{
+  font-size: 1px;
+  cursor: pointer;
+  margin-left: 0px;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+/*
+Fim HEADER
+----------------------------------------
+Inicio footer
+*/
+
+footer {
+  padding: 35px 0;
+  background-color: #eff0e8;
+  border-bottom: 3px solid #d9d9d9;
+}
+
+.faleConosco{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.faleConosco .titulo {
+  font-weight: bold;
+  color: #054A29;
+  font-size: 24px;
+}
+
+.email{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.faleConosco .textoEmail {
+  font-weight: bold;
+  color: #11C76F;
+  font-size: 20px;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+
+.tel{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.faleConosco .textoTell {
+  font-weight: bold;
+  color: #11C76F;
+  font-size: 18px;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+
+.hr{
+  background-color: #054A29;
+  height:1px;
+  width: 100%;
+  margin:20px 0;
+}
+
+.faleConosco .imgFaleConosco{
+  display: flex;
+  justify-content:flex-end;
+}
+
+/*
+Fim FOOTER
+------------------------------------------
+Inicio formatação de links
+*/
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
